@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Joti+One&display=swap');
+*{
+    padding: 0%;
+    margin: 0px;
+}
+#orange{
+    color:#EF7741;
+}
+.container{
+    display: flex;
+}
+.box1{
+    background-color: #FEF7F4;
+    height: 100%;
+    width: 40%;
+}
+.expression{
+    padding-top:    48px;
+    padding-left:    30px;
+    font-family: "Joti One", serif;
+    font-weight: 400;
+}
+#explor{
+    width: 380px;
+    padding-top: 41px;
+    padding-left: 50px;
+
+}
+
+
+.box2{
+    background-image: url('/IMAGE/1343.jpg');
+    background-size: 141%;
+
+    height: 580px;
+    width: 60%;
+}
+.titre{
+    padding-left: 190px;
+    margin-top: 20px;
+}
+#titre{
+    padding-left: 238px;
+}
+.login{
+    display: flex;
+    padding-left: 270px;
+    margin-top: 10px;
+}
+#userlogin {
+    font-size: 180%;
+    margin-top: 14%;
+    margin-left: 9%;
+}
+#img {
+    width: 68px;
+    margin-top: 4%;
+    margin-left: -3%;
+}
+.email input{
+    width: 30px;
+    height: 30px;
+    padding-left: 100px;
+
+
+
+
+}
+.passe {
+    padding-left: 31%;
+    font-size: 19px;
+    PADDING-TOP: 23PX;
+}
+#in {
+    margin-left: 31%;
+    border-color: orange;
+    width: 37%;
+    height: 6%;
+}
+#submit {
+    margin-left: 42%;
+    margin-top: 2%;
+    font-size: 85%;
+    color: white;
+    background-color: #ef7741;
+    border-color: #ef7741;
+    padding: 7px;
+}
+
+@media(max-width:500px){
+    .container{
+        display: flex;
+        flex-direction: column;
+    } 
+    .box1 {
+        background-color: #FEF7F4;
+        height: 219px;
+        width: 133%;
+    }
+    #explor {
+        width: 100px;
+        margin-top: -120px;
+        padding-left: 73%;
+    }
+    .box2 {
+        background-image: url(1343.jpg);
+        background-size: 141%;
+        height: 601px;
+        width: 134%;
+    }
+}
